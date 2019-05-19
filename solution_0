@@ -1,0 +1,17 @@
+// TASK #1.
+//Finish convert function to parse and print year, month, day, hour, minute, seconds and
+//millis from provided data.
+
+//Input: date in a string.  Like: 2018-08-13 17.00.05:542;
+//Expected output from a function in console:
+//Current time is 17 hours, 00 min, 05 sec & 542 millis. Date: 13/08/2017.
+a
+function convert(input){
+	var output = "Current time is 17 hours, 00 min, 05 sec & 542 millis. Date: 13/08/2017.";
+
+       //your solution should be here
+
+	return output;
+}
+
+console.log(convert('2018-08-13 17.00.05:542'));
